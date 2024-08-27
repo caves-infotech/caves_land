@@ -9,7 +9,7 @@ const ContactMeta = () => {
     },
     {
       text: "Total Free Customer Care",
-      info: "+(0) 123 050 945 02",
+      info: "9209905101",
       link: "tel:+012305094502",
     },
     {

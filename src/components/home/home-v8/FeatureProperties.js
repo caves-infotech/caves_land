@@ -115,7 +115,7 @@ const FeatureProperties = () => {
                         Total Free Customer Care
                       </p>
                       <h6 className="info-phone">
-                        <a href="tel:+012305094502">+(0) 123 050 945 02</a>
+                        <a href="tel:+012305094502">9209905101</a>
                       </h6>
                     </div>
                   </div>

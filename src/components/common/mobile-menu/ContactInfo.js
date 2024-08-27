@@ -5,7 +5,7 @@ const ContactInfo = () => {
     {
       id: 1,
       title: "Total Free Customer Care",
-      phone: "+(0) 123 050 945 02",
+      phone: "9209905101",
       phoneHref: "tel:+012305094502", // Updated phoneHref to use "tel" URI
     },
     {
