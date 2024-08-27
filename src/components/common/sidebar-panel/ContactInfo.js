@@ -11,8 +11,8 @@ const ContactInfo = () => {
     {
       id: 2,
       title: "Need Live Support?",
-      email: "hi@homez.com",
-      emailHref: "mailto:hi@homez.com",
+      email: "cavesinfotech@gmail.com",
+      emailHref: "mailto:cavesinfotech@gmail.com",
     },
   ];
 
