@@ -30,7 +30,7 @@ const MobileMenu = () => {
                 <Image
                   width={138}
                   height={44}
-                  src="/images/header-logo(2).svg"
+                  src="/images/header-logo2.svg"
                   alt="logo"
                 />
               </Link>
