@@ -86,7 +86,7 @@ const About = () => {
                   height={515}
                   priority
                   className="w-100 h-100 cover"
-                  src="/images/about/about-page-banner.webp"
+                  src="/images/about/about-page-banner.jpg"
                   alt="about banner"
                 />
               </div>
