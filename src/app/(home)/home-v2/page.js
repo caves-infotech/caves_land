@@ -20,7 +20,7 @@ export const metadata = {
   title: "Home v2 || Homez - Real Estate NextJS Template",
 };
 
-const Home = () => {
+const Home_V2 = () => {
   return (
     <>
       {/* Main Header Nav */}
@@ -311,4 +311,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home_V2;
