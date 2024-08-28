@@ -105,7 +105,7 @@ export const blogItems = [
 export const pageItems = [
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
-  { href: "/compare", label: "Compate" },
+  { href: "/compare", label: "Compare" },
   { href: "/pricing", label: "Pricing" },
   { href: "/faq", label: "Faq" },
   { href: "/login", label: "Login" },
