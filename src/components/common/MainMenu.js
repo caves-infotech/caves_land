@@ -20,11 +20,11 @@ const MainMenu = () => {
     //     setTopMenu("home");
     //   }
     // });
-    // blogItems.forEach((elm) => {
-    //   if (elm.href.split("/")[1] == pathname.split("/")[1]) {
-    //     setTopMenu("blog");
-    //   }
-    // });
+    blogItems.forEach((elm) => {
+      if (elm.href.split("/")[1] == pathname.split("/")[1]) {
+        setTopMenu("blog");
+      }
+    });
     pageItems.forEach((elm) => {
       if (elm.href.split("/")[1] == pathname.split("/")[1]) {
         setTopMenu("pages");
@@ -144,13 +144,13 @@ const MainMenu = () => {
       {/* End property Items */}
 
       <li className="visible_list dropitem">
-        <Link className="list-item" href="blog-list-v2">
+        <Link className="list-item" href="#">
           <span className={topMenu == "blog" ? "title menuActive" : "title"}>
             Blog
           </span>
           
         </Link>
-        {/* <ul className="sub-menu">
+        <ul className="sub-menu">
           {blogItems.map((item, index) => (
             <li key={index}>
               <Link className={`${handleActive(item.href)}`} href={item.href}>
@@ -158,7 +158,7 @@ const MainMenu = () => {
               </Link>
             </li>
           ))}
-        </ul> */}
+        </ul>
       </li>
       {/* End blog Items */}
 
